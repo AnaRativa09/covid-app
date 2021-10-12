@@ -1,3 +1,50 @@
-.App {
-  text-align: center;
+/* 
+Colors
+$backgroundColor: #eff2fc;
+$purpple: #a100ff;
+$lightPurpple: #b235fc;
+$darkPurpple: #7400b9;
+$blue: #004dff;
+$lightBlue: #3f79fc;
+$darkBlue: #3f79fc;
+$black: #000000;
+$lightGray: #7f7d7d;
+$darkGray: #464646; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #eff2fc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #7400b9;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b235fc
+}
+
+.error {
+  color: rgba(255, 0, 0, 0.75);
+  margin: 10px 0;
 }
