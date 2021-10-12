@@ -17,12 +17,12 @@ Aplicación web que permite ver en tiempo real el estado mundial de la pandemia 
 ## 2. Demo
 - URL
 - Credenciales
-  - Usuario
-  - Contraseña
+  - Usuario: admin@gmail.com
+  - Contraseña: pass123456.
 
 ## 3. Objetivos
 
-- [ ] Login usando Firebase.
+- [x] Login usando Firebase.
 - [ ] Diagrama de CSS/HTML de las imágenes adjuntas.
 - [ ] Dashboard de los datos en tiempo real
 - Mapa:
