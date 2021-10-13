@@ -26,6 +26,7 @@ Aplicación web que permite ver en tiempo real el estado mundial de la pandemia 
 - [ ] Dashboard de los datos en tiempo real.
 - Mapa:
     - [ ] Mostrar todos los países con su reporte por Covid-19 y demostrar visualmente ¿cuáles son los países más afectados?
+    - [ ] Registrar nuevos casos de contagio según ubicación geográfica.
     - [ ] Realizar zoom in en Colombia y ver los infectados por departamentos y ciudades.
     - [ ] (Bonus) Realizar zoom in en USA y ver los estados más afectados.
 
