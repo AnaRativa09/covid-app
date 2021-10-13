@@ -15,7 +15,7 @@
 Aplicación web que permite ver en tiempo real el estado mundial de la pandemia provocada por Covid-19, mostrando infectados, recuperados y fallecidos. Además, permite registrar nuevos casos de contagio, con los detalles de los mismos y su ubicación geográfica.
 
 ## 2. Demo
-- URL
+- URL: 
 - Credenciales
   - Usuario: admin@gmail.com
   - Contraseña: pass123456.
@@ -23,8 +23,7 @@ Aplicación web que permite ver en tiempo real el estado mundial de la pandemia 
 ## 3. Objetivos
 
 - [x] Login usando Firebase.
-- [ ] Diagrama de CSS/HTML de las imágenes adjuntas.
-- [ ] Dashboard de los datos en tiempo real
+- [ ] Dashboard de los datos en tiempo real.
 - Mapa:
     - [ ] Mostrar todos los países con su reporte por Covid-19 y demostrar visualmente ¿cuáles son los países más afectados?
     - [ ] Realizar zoom in en Colombia y ver los infectados por departamentos y ciudades.
@@ -44,5 +43,4 @@ Aplicación web que permite ver en tiempo real el estado mundial de la pandemia 
 * Google Maps
 * Google Places
 * Firebase
-* Api Covid
-* Api de su preferencia
+* API Covid
