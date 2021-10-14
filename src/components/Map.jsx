@@ -167,7 +167,7 @@ function Search({ panTo }) {
       <ComboboxInput
         value={value}
         onChange={(e) => { setValue(e.target.value); }}
-        disable={!ready}
+        disable={!ready ? 1 : 0}
         placeholder="Search location"
       />
       <ComboboxPopover>
