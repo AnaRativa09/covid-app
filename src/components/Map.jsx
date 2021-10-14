@@ -82,7 +82,7 @@ const Map = () => {
               onCloseClick={() => (setSelectedCase(null))}
             >
               <div>
-                <h2>New Covid Case</h2>
+                <h3>New Covid Case</h3>
                 <p>
                   {' '}
                   Reported:
