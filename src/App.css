@@ -48,3 +48,15 @@ button:hover {
   color: rgba(255, 0, 0, 0.75);
   margin: 10px 0;
 }
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-small {
+  width: auto;
+  height: 40px;
+  padding: 0 10px;
+}
