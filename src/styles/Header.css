@@ -12,7 +12,6 @@ header {
 }
 
 .header-content {
-  width: 30vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -21,23 +20,11 @@ header {
 .user-container {
   display: flex;
   align-items: center;
-  margin: 0 25px;
+  margin: 0 5%;
 }
 
 
 .btn-logout {
   width: auto;
   padding: 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
-  padding: 5px;
-}
-
-nav a:hover {
-  background-color: #b235fc;
-  border-radius: 15px;
 }
