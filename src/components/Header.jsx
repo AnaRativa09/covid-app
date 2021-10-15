@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 
 import { useAuth } from '../firebase/authContext';
 
@@ -20,21 +19,14 @@ const Header = () => {
 
   return (
     <header>
-      <div>
-        Aqui el logo
-      </div>
-
-      <nav>
-        <NavLink to="/"> Covid Map </NavLink>
-        <NavLink to="/cases-update">Cases Update</NavLink>
-      </nav>
+      <h2>COVID APP</h2>
 
       <div className="header-content">
         <div className="user-container">
           <p>{currentUser.email}</p>
         </div>
 
-        <button type="button" onClick={handleLogout} className="btn-logout">
+        <button type="button" onClick={handleLogout} className="btn-custom btn-logout">
           <i className="fas fa-sign-out-alt" />
         </button>
       </div>
