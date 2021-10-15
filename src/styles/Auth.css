@@ -1,7 +1,9 @@
 .card {
   background-color: #fff;
-  width: 400px;
-  height: 500px;
+  width: 70%;
+  max-width: 400px;
+  height: 50%;
+  max-height: 500px;
   padding: 30px;
   text-align: center;
   border: 0.5px solid #d3d6dd;
@@ -16,8 +18,11 @@ input {
   height: 40px;
   width: 100%;
   margin: 15px 0;
-  padding: 10px;
   border: 1px solid #7f7d7d;
   border-radius: 15px;
   font-size: 1em;
+}
+
+input::placeholder {
+  padding-left: 20px;
 }

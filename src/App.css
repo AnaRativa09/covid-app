@@ -12,20 +12,19 @@ $lightGray: #7f7d7d;
 $darkGray: #464646; 
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
+#root {
   background-color: #eff2fc;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn-custom {
@@ -44,19 +43,13 @@ body {
   background-color: #b235fc;
 }
 
-.error {
-  color: rgba(255, 0, 0, 0.75);
-  margin: 10px 0;
-}
-
-.flex-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .btn-small {
   width: auto;
   height: 40px;
   padding: 0 10px;
+}
+
+.error {
+  color: rgba(255, 0, 0, 0.75);
+  margin: 10px 0;
 }
