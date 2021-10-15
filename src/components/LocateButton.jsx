@@ -4,7 +4,7 @@ function LocateButton({ panTo }) {
   return (
     <button
       type="button"
-      className="btn-small"
+      className="btn-custom btn-small"
       onClick={() => {
         navigator.geolocation.getCurrentPosition(
           (positions) => {

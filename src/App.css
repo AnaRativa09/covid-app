@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-button {
+.btn-custom {
   height: 45px;
   width: 100%;
   margin: 15px 0;
@@ -40,7 +40,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn-custom:hover {
   background-color: #b235fc;
 }
 

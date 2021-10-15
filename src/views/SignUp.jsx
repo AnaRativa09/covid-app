@@ -57,7 +57,7 @@ const SignUp = () => {
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
 
-        <button type="submit">Create Account</button>
+        <button type="submit" className="btn-custom">Create Account</button>
       </form>
 
       { error && (<p className="error">{`Error: ${error}`}</p>) }
